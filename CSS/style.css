@@ -4,6 +4,14 @@
 
 }
 
+.homePageContainer{
+    background-image: url("https://www.aesop.com/u1nb1km7t5q7/3hZIIeiH4oSDbZtdN1ZnJ4/f765cfb8f8567dadfca93ae84e34890a/Aesop_Highpoint_Hero_Bleed_1_Desktop_2880x1620px.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
 .store-container{
     width: 100%;
     height: 100vh;
@@ -293,12 +301,16 @@
     float: right;
 }
 
+.topSellerContainer{
+    background-color: #966F33;
+}
 .header{
     display: flex;
     border-bottom: 1px solid black;
     justify-content: center;
     align-items: center;
     width: 100%;
+    background-color: #966F33;
  
 }
 
@@ -308,6 +320,7 @@
     text-align: center;
     flex: 14;
     margin-left: 85px;
+    color: white;
     
 }
 
