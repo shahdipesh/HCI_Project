@@ -4,6 +4,12 @@
 
 }
 
+.card-text{
+    overflow: scroll;
+    max-height: 18vh;
+    min-height: 18vh;
+}
+
 .topSellerLink{
     text-decoration: none;
 }
@@ -93,8 +99,10 @@
     background-size: cover;
     background-position: center;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
+    position: fixed;
 }
+
 
 .categories{
     position: absolute;
@@ -114,6 +122,7 @@
     /* font robot */
     font-family: 'Roboto', sans-serif;
     border-radius: 10px;
+    
 }
 
 
@@ -137,11 +146,11 @@
 
 
 .topSeller{
-    position: absolute;
-    width: 15%;
-    height: 38%;
+    position: fixed;
+    width: 15vw;
+    height: 38vh;
     background-color: rgba(0,0,0,0.5);
-    left: 33%;
+    left: 33vw;
     color: BLACK;
     text-align: center;
     display: flex;
@@ -152,7 +161,6 @@
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8uNn82ZedpiVSpu0jeidATqRb729NsWQ8-Im36jZiL1VlwvwPbfcaRqNzvWbIxRdNBFM&usqp=CAU");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);  
     font-size: 1.5rem;
@@ -206,6 +214,9 @@
 .topSellerContainer{
     background-color: #966F33;
 }
+.onSaleGamesContainer{
+    background-color: #966F33;
+}
 .header{
     display: flex;
     border-bottom: 1px solid black;
@@ -234,6 +245,10 @@
     align-items: center;
     
 }
+.onSalePrice{
+    background-color:red;
+
+}
 
 .headerIcon{
     flex: 1;
@@ -242,4 +257,14 @@
 
 .card{
     margin-top: 20px;
+    max-height: 30rem;
 }
+
+.card-body{
+    max-height: 20rem;   
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
